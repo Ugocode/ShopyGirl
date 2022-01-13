@@ -133,6 +133,6 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
 
   void _goHome() {
     Navigator.pushReplacement(
-        context, MaterialPageRoute(builder: (_) => const HomeScreen()));
+        context, MaterialPageRoute(builder: (_) => HomeScreen()));
   }
 }
