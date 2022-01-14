@@ -68,7 +68,7 @@ class Product {
         productLink: json["product_link"],
         websiteLink: json["website_link"],
         description: json["description"],
-        rating: json["rating"].toDouble(),
+        // rating: json["rating"].toDouble(),
         category: json["category"] == null
             ? null
             : categoryValues.map?[json["category"]],
